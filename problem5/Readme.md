@@ -65,7 +65,7 @@ Error handling is implemented for database errors, invalid inputs, and missing r
    npm install
    ```
 
-3. Create `.env` file in the project root with the following content:
+3. Create `.env` file in the project root with the following content if there is any error:
 
    ```
     MONGO_URI=mongodb+srv://daxdatnguyen:f5pJvGMCB30jlgab@mycluster.vkhwh.mongodb.net/sample_mflix?retryWrites=true&w=majority&appName=MyCluster

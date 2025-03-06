@@ -68,8 +68,8 @@ Error handling is implemented for database errors, invalid inputs, and missing r
 3. Create `.env` file in the project root with the following content:
 
    ```
-   PORT=3000
-   MONGODB_URI=<your-mongodb-connection-string>
+    MONGO_URI=mongodb+srv://daxdatnguyen:f5pJvGMCB30jlgab@mycluster.vkhwh.mongodb.net/sample_mflix?retryWrites=true&w=majority&appName=MyCluster
+    PORT=3000
    ```
 
 4. Start the development server:

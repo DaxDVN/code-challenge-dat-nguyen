@@ -26,6 +26,7 @@ Error handling is implemented for database errors, invalid inputs, and missing r
 
 ## 📂 Project Structure
 
+```
 |-- .env
 |-- .gitignore
 |-- nodemon.json
@@ -34,17 +35,18 @@ Error handling is implemented for database errors, invalid inputs, and missing r
 |-- Readme.md
 |-- tsconfig.json
 |-- src
-|-- index.ts
-|-- config
-|-- database.ts
-|-- controllers
-|-- theater.controllers.ts
-|-- middleware
-|-- validation.middleware.ts
-|-- models
-|-- theater.model.ts
-|-- routes
-|-- theater.routes.ts
+  |-- index.ts
+  |-- config
+    |-- database.ts
+  |-- controllers
+    |-- theater.controllers.ts
+  |-- middleware
+    |-- validation.middleware.ts
+  |-- models
+    |-- theater.model.ts
+  |-- routes
+    |-- theater.routes.ts
+```
 
 ## ⚙️ Installation & Setup
 
